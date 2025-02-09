@@ -1,6 +1,6 @@
 #include "displays/displays.h"
 #include "escape_sequence/escape_sequence.h"
-#include "elements/element_array.h"
+#include "elements/elements.h"
 #include "elements/element_input_match.h"
 #include "elements/element_type.h"
 #include "elements/get_element_details.h"
