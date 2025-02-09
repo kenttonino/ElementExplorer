@@ -25,11 +25,11 @@
 # If you only want to build.
 make run-build
 
-# Running the app.
-make run
-
 # Running the app with GDB.
 run-debug
+
+# Running the app.
+make run
 ```
 
 <br />
