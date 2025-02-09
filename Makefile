@@ -1,10 +1,10 @@
-build:
+run-build:
 	gcc -g -o bin/elementexplorer src/main.c
 
-debug:
+run-debug:
 	make build
 	gdb bin/elementexplorer
 
-elementexplorer:
+run:
 	make build
 	bin/elementexplorer

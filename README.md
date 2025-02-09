@@ -23,16 +23,13 @@
 
 ```sh
 # If you only want to build.
-chmod +x run-build.sh
-./run-build.sh
+make run-build
 
 # Running the app.
-chmod +x run.sh
-./run.sh
+make run
 
 # Running the app with GDB.
-chmod +x run-debug.sh
-./run-debug.sh
+run-debug
 ```
 
 <br />
