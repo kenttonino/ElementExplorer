@@ -1,4 +1,4 @@
-name: ElementExplorer (develop)
+name: SW - ElementExplorer (develop)
 
 on:
   push:
@@ -13,4 +13,4 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v4
     - name: Build
-      run: make build
+      run: make run-build

@@ -1,5 +1,5 @@
-#include "../escape_sequence/escape_sequence.h"
-#include "element_type.h"
+#include "../escape_sequence/escape_sequence_function.h"
+#include "elements_type.h"
 
 void get_element_details(element_details *element) {
   // Display symbol.

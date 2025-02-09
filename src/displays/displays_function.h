@@ -1,5 +1,5 @@
-#ifndef DISPLAYS_H
-#define DISPLAYS_H
+#ifndef DISPLAYS_FUNCTION_H
+#define DISPLAYS_FUNCTION_H
 #include "./app_description.c"
 #include "./app_exit.c"
 #include "./clear_terminal.c"

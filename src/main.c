@@ -1,12 +1,9 @@
-#include "displays/displays.h"
-#include "escape_sequence/escape_sequence.h"
-#include "elements/element_array.h"
-#include "elements/element_input_match.h"
-#include "elements/element_type.h"
-#include "elements/get_element_details.h"
-#include "inputs/get_input.h"
-#include "inputs/get_lowercase_input.h"
-#include "inputs/get_retry_input.h"
+#include "displays/displays_function.h"
+#include "escape_sequence/escape_sequence_function.h"
+#include "elements/elements_data.h"
+#include "elements/elements_type.h"
+#include "elements/elements_function.h"
+#include "inputs/inputs_function.h"
 
 int main(void) {
   int try_again = 1;
