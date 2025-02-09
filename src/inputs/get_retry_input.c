@@ -1,6 +1,7 @@
 #include "../escape_sequence/escape_sequence_function.h"
-#include "get_lowercase_input.h"
 #include <stdlib.h>
+#include <string.h>
+#include "./get_lowercase_input.c"
 
 int get_retry_input(void) {
   char *retry_input = malloc(sizeof(char) * 5);

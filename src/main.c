@@ -4,7 +4,7 @@
 #include "elements/elements_type.h"
 #include "elements/elements_function.h"
 #include "inputs/get_input.h"
-#include "inputs/get_lowercase_input.h"
+#include "inputs/inputs_function.h"
 #include "inputs/inputs_function.h"
 
 int main(void) {
