@@ -1,6 +1,6 @@
-#include "remove_input_spaces.h"
 #include <ctype.h>
 #include <string.h>
+#include "remove_input_spaces.c"
 
 char *get_lowercase_input(char *input) {
   // Cleanup the input first.
