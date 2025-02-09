@@ -1,4 +1,4 @@
-#include "../element_type.h"
+#include "../elements_type.h"
 
 element_details actinium = {
     "Ac",
