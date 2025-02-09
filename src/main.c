@@ -5,7 +5,7 @@
 #include "elements/elements_function.h"
 #include "inputs/get_input.h"
 #include "inputs/get_lowercase_input.h"
-#include "inputs/get_retry_input.h"
+#include "inputs/inputs_function.h"
 
 int main(void) {
   int try_again = 1;
