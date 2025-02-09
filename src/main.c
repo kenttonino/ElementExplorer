@@ -3,7 +3,6 @@
 #include "elements/elements_data.h"
 #include "elements/elements_type.h"
 #include "elements/elements_function.h"
-#include "elements/get_element_details.h"
 #include "inputs/get_input.h"
 #include "inputs/get_lowercase_input.h"
 #include "inputs/get_retry_input.h"
