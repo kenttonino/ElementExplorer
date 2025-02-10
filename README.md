@@ -26,7 +26,7 @@
 make run-build
 
 # Running the app with GDB.
-run-debug
+make run-debug
 
 # Running the app.
 make run
