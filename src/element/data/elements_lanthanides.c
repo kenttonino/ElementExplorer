@@ -1,4 +1,4 @@
-#include "../elements_type.h"
+#include "../element_type.h"
 
 element_details lanthanum = {
     "La",

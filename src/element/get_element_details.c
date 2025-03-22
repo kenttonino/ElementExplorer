@@ -1,5 +1,5 @@
 #include "../helper/helper.h"
-#include "elements_type.h"
+#include "element_type.h"
 
 void get_element_details(element_details *element) {
   // Display symbol.
