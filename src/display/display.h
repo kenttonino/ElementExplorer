@@ -1,5 +1,5 @@
-#ifndef DESCRIPTION_H
-#define DESCRIPTION_H
+#ifndef DISPLAY_H
+#define DISPLAY_H
 #include "./app_description.c"
 #include "./app_exit.c"
 #include "./element_not_found.c"
