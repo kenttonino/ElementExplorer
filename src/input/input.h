@@ -1,5 +1,5 @@
-#ifndef INPUTS_H
-#define INPUTS_H
+#ifndef INPUT_H
+#define INPUT_H
 #include "get_retry_input.c"
 #include "get_input.c"
 
