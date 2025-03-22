@@ -1,4 +1,4 @@
-#include "../escape_sequence/escape_sequence_function.h"
+#include "../helper/helper.h"
 #include "elements_type.h"
 
 void get_element_details(element_details *element) {

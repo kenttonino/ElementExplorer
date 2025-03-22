@@ -1,4 +1,4 @@
-#include "../escape_sequence/escape_sequence_function.h"
+#include "../helper/helper.h"
 #include <stdlib.h>
 #include <string.h>
 #include "get_lowercase_input.c"

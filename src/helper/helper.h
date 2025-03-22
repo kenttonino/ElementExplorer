@@ -1,5 +1,5 @@
-#ifndef ESCAPE_SEQUENCE_FUNCTION_H
-#define ESCAPE_SEQUENCE_FUNCTION_H
+#ifndef HELPER_H
+#define HELPER_H
 #include "./add_new_tab.c"
 #include "./add_new_line.c"
 

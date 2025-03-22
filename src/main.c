@@ -1,5 +1,5 @@
 #include "displays/displays_function.h"
-#include "escape_sequence/escape_sequence_function.h"
+#include "helper/helper.h"
 #include "elements/elements_data.h"
 #include "elements/elements_type.h"
 #include "elements/elements_function.h"
