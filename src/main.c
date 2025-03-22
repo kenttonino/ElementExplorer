@@ -1,8 +1,8 @@
 #include "displays/displays_function.h"
 #include "helper/helper.h"
-#include "elements/elements_data.h"
-#include "elements/elements_type.h"
-#include "elements/elements_function.h"
+#include "element/elements_data.h"
+#include "element/elements_type.h"
+#include "element/element.h"
 #include "input/input.h"
 
 int main(void) {

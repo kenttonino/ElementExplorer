@@ -1,5 +1,5 @@
-#ifndef ELEMENTS_FUNCTION_H
-#define ELEMENTS_FUNCTIONS_H
+#ifndef ELEMENT_H
+#define ELEMENT_H
 #include "./element_input_match.c"
 #include "./get_element_details.c"
 
