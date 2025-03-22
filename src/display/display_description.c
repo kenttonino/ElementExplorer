@@ -1,6 +1,6 @@
 #include "../helper/helper.h"
 
-void app_description(void) {
+void display_description(void) {
   add_new_tab();
   add_new_tab();
   printf("%s------------------------------------------------%s", BLUE, RESET);

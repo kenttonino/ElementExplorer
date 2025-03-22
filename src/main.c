@@ -19,7 +19,7 @@ int main(void) {
     add_new_line();
 
     // Show the name of the tool and include some description.
-    app_description();
+    display_description();
 
     // Handle the input.
     add_new_line();
@@ -41,7 +41,7 @@ int main(void) {
     }
 
     if (no_match) {
-      element_not_found();
+      display_not_found();
     }
 
     // Ask user if want to try again | .
@@ -53,7 +53,7 @@ int main(void) {
 
   // Add some spaces before the exit.
   add_new_line();
-  app_exit();
+  display_exit();
   add_new_line();
   add_new_line();
 
