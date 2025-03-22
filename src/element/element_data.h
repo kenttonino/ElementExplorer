@@ -1,5 +1,5 @@
-#ifndef ELEMENTS_DATA_H
-#define ELEMENTS_DATA_H
+#ifndef ELEMENT_DATA_H
+#define ELEMENT_DATA_H
 #include "./element_array.c"
 
 extern element elements[];
