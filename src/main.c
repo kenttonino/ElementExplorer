@@ -3,7 +3,7 @@
 #include "elements/elements_data.h"
 #include "elements/elements_type.h"
 #include "elements/elements_function.h"
-#include "inputs/inputs_function.h"
+#include "input/input.h"
 
 int main(void) {
   int try_again = 1;

@@ -1,4 +1,4 @@
-## SW - ElementExplorer
+## Description
 
 <br />
 
@@ -17,16 +17,16 @@
 
 
 
-## Local Development
+## Setup
 
 - `Running the app.`
 
 ```sh
 # If you only want to build.
-make run-build
+make build
 
 # Running the app with GDB.
-make run-debug
+make debug
 
 # Running the app.
 make run
@@ -37,7 +37,9 @@ make run
 
 
 
-## Snap Installation
+## Installation
+
+> - You can install the `Snap`.
 
 ```sh
 # If you already installed the CLI tool.

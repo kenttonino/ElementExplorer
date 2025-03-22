@@ -1,10 +1,13 @@
-run-build:
+# Compile the computer program with GCC with debug flag.
+build:
 	gcc -g -o bin/elementexplorer src/main.c
 
-run-debug:
-	make run-build
+# Run the executable binary using GDB.
+debug:
+	make build
 	gdb bin/elementexplorer
 
+# Run the executable binary.
 run:
-	make run-build
+	make build
 	bin/elementexplorer
