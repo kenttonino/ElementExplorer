@@ -2,10 +2,12 @@
 #define HELPER_H
 #include "./add_new_tab.c"
 #include "./add_new_line.c"
+#include "./clear_terminal.c"
 
 // Custom functions.
 extern void add_new_tab(void);
 extern void add_new_line(void);
+extern void clear_terminal(void);
 
 // Color codes.
 #define BLUE "\e[0;34m"
