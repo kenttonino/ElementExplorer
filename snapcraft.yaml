@@ -1,6 +1,6 @@
 # Metadata of the CLI tool.
 name: elementexplorer
-version: "1.0.2"
+version: "1.1.2"
 summary: CLI Tool
 description: |
   A CLI tool for element details.
