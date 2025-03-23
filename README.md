@@ -12,6 +12,8 @@
 
 > - Snap: https://snapcraft.io/elementexplorer
 
+> - This works well in `ubuntu linux`, not sure in other `Distros` or `OS`.
+
 <br />
 <br />
 
