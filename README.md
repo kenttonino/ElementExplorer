@@ -6,8 +6,6 @@
 
 <br />
 
-> - A CLI tool for element details.
-
 > - Elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
 > - Snap: https://snapcraft.io/elementexplorer
