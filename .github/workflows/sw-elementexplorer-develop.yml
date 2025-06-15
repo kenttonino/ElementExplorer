@@ -1,4 +1,4 @@
-name: SW - ElementExplorer (develop)
+name: ElementExplorer (develop)
 
 on:
   push:
