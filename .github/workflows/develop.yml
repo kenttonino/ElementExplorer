@@ -1,4 +1,4 @@
-name: ElementExplorer (develop)
+name: develop
 
 on:
   push:
