@@ -4,12 +4,12 @@
 #include "./add_new_line.c"
 #include "./clear_terminal.c"
 
-// Custom functions.
+// * Custom functions.
 extern void add_new_tab(void);
 extern void add_new_line(void);
 extern void clear_terminal(void);
 
-// Color codes.
+// * Color codes.
 #define BLUE "\e[0;34m"
 #define GREEN "\e[0;32m"
 #define YELLOW "\e[0;33m"

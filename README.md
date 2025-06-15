@@ -10,7 +10,7 @@
 
 > - Snap: https://snapcraft.io/elementexplorer
 
-> - This works well in `uUbuntu and Debian Linux`, not sure in other `Distros` or `OS`.
+> - This works well in `Debian Linux`, not sure in other `Distros` or `OS`.
 
 <br />
 <br />
@@ -39,7 +39,7 @@ make run
 
 ## Installation
 
-> - You can install the `Snap`.
+> - You can install the `Snap` (for Ubuntu OS).
 
 ```sh
 # If you already installed the CLI tool.

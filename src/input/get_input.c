@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 char *get_input(void) {
-  // Allocate memory to draftInput pointer.
+  // * Allocate memory to draftInput pointer.
   char *draft_input = malloc(sizeof(char) * 100);
 
   add_new_tab();

@@ -12,22 +12,22 @@ int main(void) {
   int no_match = 1;
 
   while (try_again == 1) {
-    // Clean up the screen.
+    // * Clean up the screen.
     clear_terminal();
     add_new_line();
     add_new_line();
     add_new_line();
 
-    // Show the name of the tool and include some description.
+    // * Show the name of the tool and include some description.
     display_description();
 
-    // Handle the input.
+    // * Handle the input.
     add_new_line();
     input = get_input();
     lowercase_input = get_lowercase_input(input);
     add_new_line();
 
-    // Display correct details.
+    // * Display correct details.
     for (int i = 0; i < (sizeof(elements) / sizeof(element)); i++) {
       element current_element = elements[i];
       char *current_symbol = current_element.symbol;
@@ -44,14 +44,14 @@ int main(void) {
       display_not_found();
     }
 
-    // Ask user if want to try again | .
+    // * Ask user if want to try again.
     add_new_line();
     add_new_line();
     try_again = get_retry_input();
     no_match = 1;
   }
 
-  // Add some spaces before the exit.
+  // * Add some spaces before the exit.
   add_new_line();
   display_exit();
   add_new_line();
