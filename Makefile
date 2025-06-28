@@ -1,6 +1,6 @@
 # Compile the computer program with GCC with debug flag.
 build:
-	gcc -g -o bin/elementexplorer src/main.c
+	gcc -g -Wpedantic -o bin/elementexplorer src/main.c
 
 # Run the executable binary using GDB.
 debug:
