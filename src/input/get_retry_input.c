@@ -1,13 +1,12 @@
 #include "../helper/helper.h"
+#include "get_lowercase_input.c"
 #include <stdlib.h>
 #include <string.h>
-#include "get_lowercase_input.c"
 
 int get_retry_input(void) {
   char *retry_input = malloc(sizeof(char) * 5);
 
-  add_new_tab();
-  add_new_tab();
+  add_new_tab(2);
   printf("Try again (y | n): ");
   fgets(retry_input, 5, stdin);
 

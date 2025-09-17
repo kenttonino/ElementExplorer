@@ -5,7 +5,7 @@
 #include "./clear_terminal.c"
 
 // * Custom functions.
-extern void add_new_tab(void);
+extern void add_new_tab(int num_lines);
 extern void add_new_line(int num_lines);
 extern void clear_terminal(void);
 
