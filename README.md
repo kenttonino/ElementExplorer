@@ -31,26 +31,3 @@ make debug
 # Running the app.
 make run
 ```
-
-<br />
-<br />
-
-
-
-## Installation
-
-> - You can install the `Snap` (for Ubuntu OS).
-
-```sh
-# If you already installed the CLI tool.
-sudo snap refresh elementexplorer
-
-# If not yet installed.
-sudo snap install elementexplorer
-
-# If you want to uninstall.
-sudo snap remove elementexplorer
-
-# Runnin the CLI tool.
-elementexplorer
-```
