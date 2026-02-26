@@ -17,17 +17,21 @@
 
 
 
-## Setup
+## Local Development
 
-- `Running the app.`
+> - Install the necessary software.
 
-```sh
-# If you only want to build.
-make build
+| `Software` | `Description` |
+| ---------- | ------------- |
+| [`GNU Make`](https://www.gnu.org/software/make/) | For scripting and build management. |
+| [`GNU Debugger`](https://www.gnu.org/savannah-checkouts/gnu/gdb/index.html) | For debugging code related errors. |
 
-# Running the app with GDB.
-make debug
+<br />
 
-# Running the app.
-make run
-```
+- Scripts necessary for development.
+
+| `Script` | `Description` |
+| -------- | ------------- |
+| _make build_ | Build the source code and generate an executable (binary) file. |
+| _make debug_ | Run the generated executable (binary) file with GDB. |
+| _make run_ | Run the generated executable (binary) file normally. |
