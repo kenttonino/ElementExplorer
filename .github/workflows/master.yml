@@ -1,4 +1,4 @@
-name: develop
+name: workflow-master
 
 on:
   push:
