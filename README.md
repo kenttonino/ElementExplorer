@@ -8,8 +8,6 @@
 
 > - Elements details are based on [National Library of Medicine PubChem](https://pubchem.ncbi.nlm.nih.gov/ptable/).
 
-> - Snap: https://snapcraft.io/elementexplorer
-
 > - This works well in `Debian Linux`, not sure in other `Distros` or `OS`.
 
 <br />
