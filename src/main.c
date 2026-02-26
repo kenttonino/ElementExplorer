@@ -26,8 +26,7 @@ int main(void) {
     add_new_line(1);
 
     // * Display correct details.
-    for (long unsigned int i = 0; i < (sizeof(elements) / sizeof(element));
-         i++) {
+    for (long unsigned int i = 0; i < (sizeof(elements) / sizeof(element)); i++) {
       element current_element = elements[i];
       char *current_symbol = current_element.symbol;
       char *current_name = current_element.name;

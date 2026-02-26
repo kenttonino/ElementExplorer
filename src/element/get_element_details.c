@@ -14,74 +14,62 @@ void get_element_details(element_details *element) {
 
   // * Display atomic number.
   add_new_tab(2);
-  printf("%sAtomic Number%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->atomic_number, RESET);
+  printf("%sAtomic Number%s: %s%s%s", BLUE, RESET, YELLOW, element->atomic_number, RESET);
   add_new_line(1);
 
   // * Display chemical group block.
   add_new_tab(2);
-  printf("%sChemical Group Block%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->chemical_group_block, RESET);
+  printf("%sChemical Group Block%s: %s%s%s", BLUE, RESET, YELLOW, element->chemical_group_block, RESET);
   add_new_line(1);
 
   // * Display atomic mass.
   add_new_tab(2);
-  printf("%sAtomic Mass%s: %s%s%s", BLUE, RESET, YELLOW, element->atomic_mass,
-         RESET);
+  printf("%sAtomic Mass%s: %s%s%s", BLUE, RESET, YELLOW, element->atomic_mass, RESET);
   add_new_line(1);
 
   // * Display standard state.
   add_new_tab(2);
-  printf("%sStandard State%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->standard_state, RESET);
+  printf("%sStandard State%s: %s%s%s", BLUE, RESET, YELLOW, element->standard_state, RESET);
   add_new_line(1);
 
   // * Display electron configuration.
   add_new_tab(2);
-  printf("%sElectron Configuration%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->electron_configuration, RESET);
+  printf("%sElectron Configuration%s: %s%s%s", BLUE, RESET, YELLOW, element->electron_configuration, RESET);
   add_new_line(1);
 
   // * Display oxidation states.
   add_new_tab(2);
-  printf("%sOxidation States%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->oxidation_states, RESET);
+  printf("%sOxidation States%s: %s%s%s", BLUE, RESET, YELLOW, element->oxidation_states, RESET);
   add_new_line(1);
 
   // * Display electronegativity (pauling scale).
   add_new_tab(2);
-  printf("%sElectronegativity (Pauling Scale)%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->electronegativity, RESET);
+  printf("%sElectronegativity (Pauling Scale)%s: %s%s%s", BLUE, RESET, YELLOW, element->electronegativity, RESET);
   add_new_line(1);
 
   // * Display atomic radius (van der Waals).
   add_new_tab(2);
-  printf("%sAtomic Radius (Van Der Waals)%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->atomic_radius, RESET);
+  printf("%sAtomic Radius (Van Der Waals)%s: %s%s%s", BLUE, RESET, YELLOW, element->atomic_radius, RESET);
   add_new_line(1);
 
   // * Display ionization energy.
   add_new_tab(2);
-  printf("%sIonization Energy%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->ionization_energy, RESET);
+  printf("%sIonization Energy%s: %s%s%s", BLUE, RESET, YELLOW, element->ionization_energy, RESET);
   add_new_line(1);
 
   // * Display electron affinity.
   add_new_tab(2);
-  printf("%sElectron Affinity%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->electron_affinity, RESET);
+  printf("%sElectron Affinity%s: %s%s%s", BLUE, RESET, YELLOW, element->electron_affinity, RESET);
   add_new_line(1);
 
   // * Display melting point.
   add_new_tab(2);
-  printf("%sMelting Point%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->melting_point, RESET);
+  printf("%sMelting Point%s: %s%s%s", BLUE, RESET, YELLOW, element->melting_point, RESET);
   add_new_line(1);
 
   // * Display melting point.
   add_new_tab(2);
-  printf("%sBoiling Point%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->boiling_point, RESET);
+  printf("%sBoiling Point%s: %s%s%s", BLUE, RESET, YELLOW, element->boiling_point, RESET);
   add_new_line(1);
 
   // * Display density.
@@ -91,8 +79,7 @@ void get_element_details(element_details *element) {
 
   // * Display year discovered.
   add_new_tab(2);
-  printf("%sYear Discovered%s: %s%s%s", BLUE, RESET, YELLOW,
-         element->year_discovered, RESET);
+  printf("%sYear Discovered%s: %s%s%s", BLUE, RESET, YELLOW, element->year_discovered, RESET);
   add_new_line(1);
 
   // * Display the reference link.
