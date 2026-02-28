@@ -12,5 +12,4 @@ run-debug: build
 
 # Run the executable binary.
 run: build
-	make build
 	bin/elementexplorer

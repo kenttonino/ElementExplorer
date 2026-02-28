@@ -23,7 +23,7 @@
 | ---------- | ------------- |
 | [`GNU Make`](https://www.gnu.org/software/make/) | For scripting and build management. |
 | [`GNU Debugger`](https://www.gnu.org/savannah-checkouts/gnu/gdb/index.html) | For debugging code related errors. |
-| [`Valgrind`](https://valgrind.org/) | Dynamic aanalysis tool. |
+| [`Valgrind`](https://valgrind.org/) | Dynamic analysis tool. |
 
 <br />
 
