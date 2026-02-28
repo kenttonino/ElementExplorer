@@ -2,12 +2,15 @@
 build:
 	gcc -g -Wfatal-errors -Wpedantic -Wall -Wextra -Werror -o bin/elementexplorer src/main.c
 
+# Run the valgrind dynamic analysis tool.
+run-valgrind: build
+	valgrind --leak-check=full --leak-resolution=high ./bin/elementexplorer
+
 # Run the executable binary using GDB.
-debug:
-	make build
+run-debug: build
 	gdb bin/elementexplorer
 
 # Run the executable binary.
-run:
+run: build
 	make build
 	bin/elementexplorer

@@ -23,6 +23,7 @@
 | ---------- | ------------- |
 | [`GNU Make`](https://www.gnu.org/software/make/) | For scripting and build management. |
 | [`GNU Debugger`](https://www.gnu.org/savannah-checkouts/gnu/gdb/index.html) | For debugging code related errors. |
+| [`Valgrind`](https://valgrind.org/) | Dynamic aanalysis tool. |
 
 <br />
 
@@ -31,5 +32,5 @@
 | `Script` | `Description` |
 | -------- | ------------- |
 | _make build_ | Build the source code and generate an executable (binary) file. |
-| _make debug_ | Run the generated executable (binary) file with GDB. |
+| _make run-debug_ | Run the generated executable (binary) file with GDB. |
 | _make run_ | Run the generated executable (binary) file normally. |

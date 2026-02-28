@@ -10,11 +10,17 @@ int get_retry_input(void) {
   printf("Try again (y | n): ");
   fgets(retry_input, 5, stdin);
 
+  // Strip newline if present.
+  retry_input[strcspn(retry_input, "\n")] = 0;
+
+  // Clean the input and make sure it is all lowercase.
   char *clean_input = get_lowercase_input(retry_input);
 
-  if (strcmp(clean_input, "y") == 0 || strcmp(clean_input, "yes") == 0) {
-    return 1;
-  } else {
-    return 0;
-  }
+  // Compare the input if yes or no.
+  int result = (strcmp(clean_input, "y") == 0 || strcmp(clean_input, "yes") == 0);
+
+  // Free the allocated memory.
+  free(retry_input);
+
+  return result;
 }
