@@ -7,7 +7,7 @@
 
 int main(void) {
   int try_again = 1;
-  char *input;
+  char *input = NULL;
   char *lowercase_input;
   int no_match = 1;
 
@@ -46,6 +46,7 @@ int main(void) {
     add_new_line(2);
     try_again = get_retry_input();
     no_match = 1;
+    input = NULL;
   }
 
   // * Add some spaces before the exit.
