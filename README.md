@@ -35,6 +35,7 @@
 | _make run-debug_ | Run the generated executable (binary) file with GDB. |
 | _make run-valgrind_ | Run the generated executable (binary) file with Valgrind. |
 | _make run_ | Run the generated executable (binary) file normally. |
+| _make run-tests__ | Run the unit tests. |
 
 > - __NOTE__: For debugging.
 >   - Always use the _Valgrind_ for checking memory leaks.
