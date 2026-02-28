@@ -10,9 +10,6 @@ int get_retry_input(void) {
   printf("Try again (y | n): ");
   fgets(retry_input, 5, stdin);
 
-  // Strip newline if present.
-  retry_input[strcspn(retry_input, "\n")] = 0;
-
   // Clean the input and make sure it is all lowercase.
   char *clean_input = get_lowercase_input(retry_input);
 
