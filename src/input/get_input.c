@@ -1,13 +1,13 @@
 #include "../helper/helper.h"
-#include <stdlib.h>
 
 char *get_input(void) {
-  // * Allocate memory to draftInput pointer.
-  char *draft_input = malloc(sizeof(char) * 100);
+  // Allocate 1000 bytes to draft_input.
+  // Put this variable in global/static memory, not on the stack or heap.
+  static char draft_input[1000];
 
   add_new_tab(2);
   printf("Enter Element (Symbol | Name): ");
-  fgets(draft_input, 100, stdin);
+  fgets(draft_input, sizeof(draft_input), stdin);
 
   return draft_input;
 }
