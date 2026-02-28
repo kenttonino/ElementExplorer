@@ -33,4 +33,9 @@
 | -------- | ------------- |
 | _make build_ | Build the source code and generate an executable (binary) file. |
 | _make run-debug_ | Run the generated executable (binary) file with GDB. |
+| _make run-valgrind_ | Run the generated executable (binary) file with Valgrind. |
 | _make run_ | Run the generated executable (binary) file normally. |
+
+> - __NOTE__: For debugging.
+>   - Always use the _Valgrind_ for checking memory leaks.
+>   - The total allocations should equal to total frees.
