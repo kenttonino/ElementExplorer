@@ -1,5 +1,5 @@
-#ifndef HELPER_H
-#define HELPER_H
+#ifndef UTILS_H
+#define UTILS_H
 #include "./add_new_tab.c"
 #include "./add_new_line.c"
 #include "./clear_terminal.c"
