@@ -9,6 +9,9 @@ build-tests:
 run-tests: build-tests
 	./bin/__tests__/input_tests
 
+run-tests-debug: build-tests
+	gdb ./bin/__tests__/input_tests
+
 # Run the valgrind dynamic analysis tool.
 run-valgrind: build
 	valgrind --leak-check=full --leak-resolution=high ./bin/elementexplorer
