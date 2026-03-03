@@ -10,7 +10,8 @@ run-tests: build-tests
 	./bin/__tests__/input_tests
 
 run-tests-debug: build-tests
-	gdb ./bin/__tests__/input_tests
+	# E.g. make run-tests-debug test="./bin/__tests__/input_tests"
+	gdb ${test}
 
 # Run the valgrind dynamic analysis tool.
 run-valgrind: build
