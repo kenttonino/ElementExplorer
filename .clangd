@@ -1,2 +1,6 @@
+# Apply only the suppress diagnostics on tests files.
+If:
+  PathMatch: src/.*/__tests__/.*
+
 Diagnostics:
-  Suppress: "-Wimplicit-function-declaration"
+  Suppress: ["-Wimplicit-function-declaration", "undeclared_var_use"]

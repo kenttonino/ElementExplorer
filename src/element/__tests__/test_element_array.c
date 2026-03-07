@@ -1,6 +1,5 @@
 #include <assert.h>
 #include "../../utils/utils.h"
-#include "../element_array.c"
 
 void test_element_array(void) {
   add_new_tab(2);
