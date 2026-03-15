@@ -1,4 +1,4 @@
-#include "../helper/helper.h"
+#include "../utils/utils.h"
 #include "get_lowercase_input.c"
 #include <stdlib.h>
 #include <string.h>

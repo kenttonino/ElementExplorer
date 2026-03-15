@@ -1,4 +1,4 @@
-#include "../helper/helper.h"
+#include "../utils/utils.h"
 
 char *get_input(void) {
   // Allocate 1000 bytes to draft_input.
