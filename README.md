@@ -35,7 +35,7 @@
 | _make run-debug_ | Run the generated executable (binary) file with GDB. |
 | _make run-valgrind_ | Run the generated executable (binary) file with Valgrind. |
 | _make run_ | Run the generated executable (binary) file normally. |
-| _make run-test bin="sometest"__ | Check the test binary in _bin_ directory. |
+| _make run-test bin="sometest"_ | Check the test binary in _bin_ directory. |
 | _make run-test-debug bin="sometest"_ | Run specific unit tests with GDB (check the binary in bin directory). |
 
 > - __NOTE__: For debugging.

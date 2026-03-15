@@ -12,8 +12,8 @@ run-test: build-test
 	./bin/__tests__/${bin}
 
 run-test-debug: build-test
-	# E.g. make run-test-debug bin="./bin/__tests__/input_test"
-	gdb ${bin}
+	# E.g. make run-test-debug bin="input_test"
+	gdb ./bin/__tests__/${bin}
 
 # Run the valgrind dynamic analysis tool.
 run-valgrind: build
